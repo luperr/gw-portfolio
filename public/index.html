@@ -70,6 +70,104 @@
                     <div class="subtitle is-3 fade-in two">
                         <p>Hi There</p>
 
+<div class="playlist">
+  
+  <div class="track">
+    
+    <img src="/img/default-cover.png" 
+         alt="Temp Song cover art" width="80" height="80">
+    
+    <div class="track-info">
+      <h4>Temp Song</h4>
+      
+      <p class="artist">Unknown Artist</p>
+      
+      
+      <audio controls preload="none">
+        <source src="/audio/song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+  
+  <div class="track">
+    
+    <img src="/img/default-cover.png" 
+         alt="Temp Song cover art" width="80" height="80">
+    
+    <div class="track-info">
+      <h4>Temp Song</h4>
+      
+      <p class="artist">Unknown Artist</p>
+      
+      
+      <audio controls preload="none">
+        <source src="/audio/song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+  
+  <div class="track">
+    
+    <img src="/img/default-cover.png" 
+         alt="Temp Song cover art" width="80" height="80">
+    
+    <div class="track-info">
+      <h4>Temp Song</h4>
+      
+      <p class="artist">Unknown Artist</p>
+      
+      
+      <audio controls preload="none">
+        <source src="/audio/song1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+  
+</div>
+
+<style>
+.playlist { 
+  margin: 2rem 0;
+  font-family: sans-serif;
+}
+.track {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s;
+}
+.track img {
+  border-radius: 4px;
+  object-fit: cover;
+}
+.track-info {
+  flex-grow: 1;
+}
+.track-info h4 {
+  margin: 0 0 0.25rem;
+}
+.track-info .artist {
+  margin: 0 0 0.5rem;
+  color: #666;
+  font-size: 0.9em;
+}
+.track audio { 
+  width: 100%;
+  max-width: 300px;
+  height: 40px;
+}
+.no-tracks {
+  color: #999;
+  font-style: italic;
+  padding: 1rem;
+}
+</style>
+
                     </div>
                     
                     

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musics on </title>
+    <link>http://localhost:1313/music/</link>
+    <description>Recent content in Musics on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temp Song</title>
+      <link>http://localhost:1313/music/song1-copy-2/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/song1-copy-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Temp Song</title>
+      <link>http://localhost:1313/music/song1-copy/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/song1-copy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Temp Song</title>
+      <link>http://localhost:1313/music/song1/</link>
+      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/song1/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

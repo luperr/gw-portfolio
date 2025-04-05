@@ -1,0 +1,21 @@
+local_backend:
+  url: http://127.0.0.1:1313/api.v1
+
+backend:
+  name: github
+  repo: luperr/gw-portfolio
+  branch: main 
+
+# Media storage (audio files, covers)
+media_folder: "static/audio"  # Stores files here
+public_folder: "/audio"      # Hugo serves from here
+
+collections:
+  - name: "music"
+    label: "Music Tracks"
+    folder: "content/music"  # Where tracks are stored
+    create: true
+    fields:
+      - { name: "title", label: "Track Title", widget: "string" }
+      - { name: "audio_file", label: "Audio File", widget: "file" }
+      - { name: "cover_image", label: "Cover Art", widget: "image", required: false }

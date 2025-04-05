@@ -4,6 +4,9 @@ DefaultContentLanguage           = "en"                    # Default language fo
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
+[security]
+  enableInlineShortcodes = true
+
 [params]
     themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
