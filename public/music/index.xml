@@ -29,5 +29,19 @@
       <guid>http://localhost:1313/music/song1/</guid>
       <description></description>
     </item>
+    <item>
+      <title>asdasdasd</title>
+      <link>http://localhost:1313/music/asdasdasd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/asdasdasd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>asdasdasdasd</title>
+      <link>http://localhost:1313/music/asdasdasdasd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/asdasdasdasd/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
