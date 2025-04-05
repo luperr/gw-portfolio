@@ -3,6 +3,6 @@ title: "Gareth Wiecko"
 draft: true
 weight: 0
 ---
-Hi There
+Pianist. Composer. Melbourne.
 
 {{< playlist >}}
