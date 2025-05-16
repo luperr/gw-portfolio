@@ -1,3 +1,7 @@
 #!/bin/bash
 
-npm install && hugo 
+if [ -f "package.json" ]; then
+  npm install
+fi
+
+hugo

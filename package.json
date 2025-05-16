@@ -1,0 +1,7 @@
+{
+  "name": "my-hugo-site",
+  "private": true,
+  "scripts": {
+    "build": "hugo --minify --gc"
+  }
+}
