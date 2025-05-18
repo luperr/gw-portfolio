@@ -2,6 +2,7 @@ backend:
   name: github
   repo: luperr/gw-portfolio
   branch: main 
+  auth_endpoint: /api/auth
 
 # Media storage (audio files, covers)
 media_folder: "static/audio"  # Stores files here
