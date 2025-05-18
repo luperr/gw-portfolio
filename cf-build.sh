@@ -4,4 +4,4 @@ if [ -f "package.json" ]; then
   npm install
 fi
 
-hugo
+hugo -b $CF_PAGES_URL
