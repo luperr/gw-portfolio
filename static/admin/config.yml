@@ -2,6 +2,8 @@ backend:
   name: github
   repo: luperr/gw-portfolio
   branch: main 
+  site_domain: https://gw-protfolio.pages.dev
+  base_url: https://gw-protfolio.pages.dev
   auth_endpoint: /api/auth
 
 # Media storage (audio files, covers)
