@@ -63,7 +63,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         icon_pack = "fab"
     [[params.social]]
         url   = "https://bsky.app/profile/garethwieckomusic.bsky.social"
-        icon  = "bluesky"
+        icon  = "square-bluesky"
         icon_pack = "fab"
     [[params.social]]
         url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
