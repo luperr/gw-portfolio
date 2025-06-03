@@ -1,6 +1,10 @@
 ---
-title: "Gareth Wiecko"
-weight: 0
+layout: prose
+rss_ignore: true
+title: About
+Menu:
+    main: 
+            weight: 90
 ---
 Pianist. Composer. Melbourne.
 <br>

@@ -2,6 +2,8 @@ backend:
   name: github
   repo: luperr/gw-portfolio
   branch: main 
+  base_url: https://gw-protfolio.pages.dev
+
 
 # Media storage (audio files, covers)
 media_folder: "static/audio"  # Stores files here
