@@ -1,56 +1,57 @@
+baseurl = "https://example.com"
+enablerobotstxt = true
+timezone = "America/Los_Angeles"
+titlecasestyle = "Go"
+
+[languages.en]
 copyright = "© Gareth Wiecko"
-defaultContentLanguage = "en"
-disableKinds = ["taxonomy"]
-enableRobotsTXT = true
-languageCode = "en"
-timeZone = "Europe/Berlin"
-timeout = "120s"
-title = "Gallery"
+languagecode = "en-us"
+languagedirection = "ltr"
+languagename = "English"
+weight = 10
 
-[params]
-  defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
-  [params.author]
-    email = "user@example.com"
-    name = "Your Name"
-  [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
-    #mastodon = "https://example.com"
+[markup.goldmark.renderer]
+unsafe = true
 
-  [params.gallery]
-    #boxSpacing = 10
-    #targetRowHeight = 288
-    #targetRowHeightTolerance = 0.25
+[markup.highlight]
+noclasses = false
+style = "github"
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
 
 [outputs]
-  home = ["HTML", "RSS"]
-  page = ["HTML"]
-  section = ["HTML"]
+home = ["atom", "html", "paige-search", "rss"]
+section = ["atom", "html", "rss"]
+taxonomy = ["atom", "html", "rss"]
+term = ["atom", "html", "rss"]
 
-[imaging]
-  quality = 75
-  resampleFilter = "CatmullRom"
-  [imaging.exif]
-    disableDate = false
-    disableLatLong = true
-    includeFields = "ImageDescription|Orientation"
+[params.paige.pages]
+disable_authors = true
+disable_date = true
+disable_keywords = true
+disable_next = true
+disable_prev = true
+disable_reading_time = true
+disable_series = true
+disable_toc = true
+disable_word_count = true
+disable_pages = true
+full_width = true
 
-[module]
-  [module.hugoVersion]
-    min = "0.121.2"
-  [[module.imports]]
-    path = "./gallery"
+[paige.pages.base_schema]
+isAccessibleForFree = true
+isFamilyFriendly = true
 
-[menu]
-  [[menu.footer]]
-    name = "GitHub"
-    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    weight = 3
+[params.paige.site]
+disable_breadcrumbs = true
+disable_credit = true
 
-[services]
-  [services.rss]
-    limit = 100
+[params.paige.subpages]
+disable_authors = true
+disable_date = true
+disable_keywords = true
+disable_reading_time = true
+disable_series = true
+disable_summary = true
+disable_word_count = true
