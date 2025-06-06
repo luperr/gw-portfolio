@@ -2,7 +2,7 @@
 title: Bio
 menu: 
     main:
-        weight: -1
+        weight: 2
 ---
 
 Gareth Wiecko is a Welsh-born pianist and producer currently living in Melbourne, Australia.
