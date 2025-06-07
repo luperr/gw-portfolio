@@ -8,4 +8,4 @@ fi
 
 echo "Building..."
 
-hugo -b $CF_PAGES_URL --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic --enableGitInfo
+hugo -b $CF_PAGES_URL --environment production --minify --templateMetrics --templateMetricsHints --forceSyncStatic --enableGitInfo
