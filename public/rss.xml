@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xml:lang="en-us" xmlns:atom="http://www.w3.org/2005/Atom"><channel><copyright>© Gareth Wiecko</copyright><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate><link>https://example.com/</link><atom:link href="https://example.com/rss.xml" hreflang="en-us" rel="self" type="application/rss+xml"/><atom:link href="https://example.com/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/><atom:link href="https://example.com/" hreflang="en-us" rel="alternate" type="text/html"/><atom:link href="https://example.com/paige-search.json" hreflang="en-us" rel="alternate" type="application/json"/><atom:link href="https://example.com/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/><title>Gareth Wiecko</title><item><description><![CDATA[<p>Gareth Wiecko is a Welsh-born pianist and producer currently living in Melbourne, Australia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="en-us"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+            <copyright>© Gareth Wiecko</copyright>
+        
+
+        
+
+        
+            <language>en-us</language>
+        
+
+        
+            <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
+        
+
+        
+            <link>http://localhost:1313/</link>
+        
+
+        
+            <atom:link href="http://localhost:1313/rss.xml" hreflang="en-us" rel="self" type="application/rss+xml"/>
+        
+
+        
+            
+
+            <atom:link href="http://localhost:1313/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/" hreflang="en-us" rel="alternate" type="text/html"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/paige-search.json" hreflang="en-us" rel="alternate" type="application/json"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+        
+
+        
+
+        
+
+        
+            <title>Gareth Wiecko</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>Gareth Wiecko is a Welsh-born pianist and producer currently living in Melbourne, Australia.
 Having released his debut album <a href="https://open.spotify.com/album/3okqjG6JRNIaptv59rgNbj?si=lLRoTJPwTwuKmLXO8oiKxQ&amp;nd=1" rel=external>Notes to Self</a>
 in 2011, he then went on to compose for an array
 of art forms. Inspired by the fusion of his classical piano background and a passion for the
@@ -41,4 +145,36 @@ uses emotional live-orchestration to accompany the beautiful action
 RPG qualities. <a href="https://open.spotify.com/album/17rsNBAindigz9xZXRMIlu?si=qFAGsbr0S_2GSD9avI18DQ" rel=external>‘Valora the RTS’</a>
 uses a mix of digital and live techniques to portray the
 difference between the day and night cycles of the game.</p><p>Gareth is keen to continue his development as a composer and produce music for further
-projects!</p>]]></description><guid isPermaLink="false">tag:example.com,0001-01-01:/about/</guid><link>https://example.com/about/</link><atom:link href="https://example.com/about/" hreflang="en-us" rel="alternate" type="text/html"/><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><title>Bio</title></item></channel></rss>
+projects!</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,0001-01-01:/about/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/about/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/about/" hreflang="en-us" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+                    
+
+                    
+                        <title>Bio</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>
