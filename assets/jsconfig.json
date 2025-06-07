@@ -2,6 +2,9 @@
  "compilerOptions": {
   "baseUrl": ".",
   "paths": {
+       "*": [
+    "../themes/gallery/assets/*"
+   ]
   }
  }
 }
