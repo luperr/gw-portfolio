@@ -5,3 +5,8 @@ if [ -f "package.json" ]; then
 fi
 
 hugo -b $CF_PAGES_URL --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic --enableGitInfo
+
+hugo env
+
+
+echo $CF_PAGES_URL
