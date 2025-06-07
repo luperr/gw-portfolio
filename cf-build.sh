@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo snap install dart-sass
+
 if [ -f "package.json" ]; then
   npm install
 fi
