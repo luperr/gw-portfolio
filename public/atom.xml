@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xml:lang="en-us" xmlns="http://www.w3.org/2005/Atom"><icon>https://example.com/</icon><id>tag:example.com,0001-01-01:/atom.xml</id><link href="https://example.com/atom.xml" hreflang="en-us" rel="self" type="application/atom+xml"/><link href="https://example.com/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/><link href="https://example.com/" hreflang="en-us" rel="alternate" type="text/html"/><link href="https://example.com/paige-search.json" hreflang="en-us" rel="alternate" type="application/json"/><link href="https://example.com/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/><logo>https://example.com/</logo><rights type="html">© Gareth Wiecko</rights><title type="html">Gareth Wiecko</title><updated>0001-01-01T00:00:00Z</updated><entry><content type="html"><![CDATA[<p>Gareth Wiecko is a Welsh-born pianist and producer currently living in Melbourne, Australia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed  xml:lang="en-us"  xmlns="http://www.w3.org/2005/Atom">
+    
+
+    
+        <icon>http://localhost:1313/</icon>
+    
+
+    
+        <id>tag:localhost:1313,0001-01-01:/atom.xml</id>
+    
+
+    
+        <link href="http://localhost:1313/atom.xml" hreflang="en-us" rel="self" type="application/atom+xml"/>
+    
+
+    
+        
+
+        <link href="http://localhost:1313/atom.xml" hreflang="en-us" rel="alternate" type="application/atom+xml"/>
+    
+        
+
+        <link href="http://localhost:1313/" hreflang="en-us" rel="alternate" type="text/html"/>
+    
+        
+
+        <link href="http://localhost:1313/paige-search.json" hreflang="en-us" rel="alternate" type="application/json"/>
+    
+        
+
+        <link href="http://localhost:1313/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+    
+
+    
+
+    
+        <logo>http://localhost:1313/</logo>
+    
+
+    
+        <rights type="html"><![CDATA[© Gareth Wiecko]]></rights>
+    
+
+    
+
+    
+        <title type="html"><![CDATA[Gareth Wiecko]]></title>
+    
+
+    
+        <updated>0001-01-01T00:00:00Z</updated>
+    
+
+    
+        
+            <entry>
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+
+                
+
+                
+                    <content type="html"><![CDATA[<p>Gareth Wiecko is a Welsh-born pianist and producer currently living in Melbourne, Australia.
 Having released his debut album <a href="https://open.spotify.com/album/3okqjG6JRNIaptv59rgNbj?si=lLRoTJPwTwuKmLXO8oiKxQ&amp;nd=1" rel=external>Notes to Self</a>
 in 2011, he then went on to compose for an array
 of art forms. Inspired by the fusion of his classical piano background and a passion for the
@@ -41,4 +146,41 @@ uses emotional live-orchestration to accompany the beautiful action
 RPG qualities. <a href="https://open.spotify.com/album/17rsNBAindigz9xZXRMIlu?si=qFAGsbr0S_2GSD9avI18DQ" rel=external>‘Valora the RTS’</a>
 uses a mix of digital and live techniques to portray the
 difference between the day and night cycles of the game.</p><p>Gareth is keen to continue his development as a composer and produce music for further
-projects!</p>]]></content><id>tag:example.com,0001-01-01:/about/</id><link href="https://example.com/about/" hreflang="en-us" rel="alternate" type="text/html"/><published>0001-01-01T00:00:00Z</published><rights type="html">© Gareth Wiecko</rights><title type="html">Bio</title><updated>0001-01-01T00:00:00Z</updated></entry></feed>
+projects!</p>]]></content>
+                
+
+                
+                    <id>tag:localhost:1313,0001-01-01:/about/</id>
+                
+
+                
+                    
+
+                    
+
+                    <link href="http://localhost:1313/about/" hreflang="en-us" rel="alternate" type="text/html"/>
+                
+
+                
+
+                
+                    <published>0001-01-01T00:00:00Z</published>
+                
+
+                
+                    <rights type="html"><![CDATA[© Gareth Wiecko]]></rights>
+                
+
+                
+
+                
+                    <title type="html"><![CDATA[Bio]]></title>
+                
+
+                
+                    <updated>0001-01-01T00:00:00Z</updated>
+                
+            </entry>
+        
+    
+</feed>

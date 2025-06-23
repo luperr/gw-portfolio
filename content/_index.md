@@ -1,6 +1,6 @@
 ---
 title: "Gareth Wiecko"
-description: Painist | Composer | Producer 
+description: Pianist | Composer | Producer 
 menus:
     main: 
         Name: Home
