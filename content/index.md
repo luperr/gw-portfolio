@@ -1,10 +1,14 @@
 ---
 title: "Gareth Wiecko"
-description: Pianist | Composer | Producer 
+description: Pianist | Composer | Producer | Piano Teacher
 menus:
     main: 
         Name: Home
         weight: 1
+paige:
+  alert:
+    message: "<a href=\"mailto:gareth@garethwiecko.com?subject=Piano%20Lesson%20Inquiry\">Email to Start Lessons!</a>"
+    type: "primary"
 ---
 <h1 class="fw-bold h1 text-center" style="margin-top: 2rem"></h1>
 <div class="column-gap-3 d-flex display-6 justify-content-center">
@@ -16,7 +20,6 @@ menus:
     {{< paige/icon class="bi bi-soundwave" title="SoundCloud" url="https://soundcloud.com/garethwiecko" >}}
     {{< paige/icon class="bi bi-youtube" title="YouTube" url="https://www.youtube.com/@GarethWiecko" >}}
 </div>
-
 <br>
 {{< soundcloud-playlist 1988617148 >}}
 <br>
